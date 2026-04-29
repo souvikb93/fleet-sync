@@ -22,11 +22,9 @@
 
 }
 
-html,body{height:100%;font-family:'Inter',sans-serif;background:transparent;overflow:hidden;color:var(--dark);margin:0;padding:0}
+html,body{margin:0;padding:0;background:transparent;overflow:hidden;font-family:'Inter',sans-serif;color:var(--dark);height:100vh}
 
-.iphone{width:277px;height:600px;background:#000;border-radius:40px;padding:8px;
-
-  position:relative;box-shadow:inset 0 0 0 2px #222,0 0 0 2px #333}
+.iphone{width:277px;height:600px;background:#000;border-radius:40px;padding:8px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);box-shadow:inset 0 0 0 2px #222,0 0 0 2px #333}
 
 .iphone::before{content:'';position:absolute;right:-3px;top:128px;width:3px;height:50px;
 
